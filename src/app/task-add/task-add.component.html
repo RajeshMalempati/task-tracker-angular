@@ -1,0 +1,16 @@
+
+  <p class="title">Create a Task</p>
+
+  <div class="inp-field">
+    <label for="name"><small><strong>Task Name</strong></small></label><br>
+    <input type="text" value="dsdfsdf" [(ngModel)]="task.name"  name="name" value="">
+  </div>
+  <div class="inp-field">
+    <label for="date"><small><strong>Date</strong></small></label><br>
+    <input type="text" value="1998-04-04" [(ngModel)]="task.date" name="date" value="">
+  </div>
+  <div class="inp-field">
+    <label for="assigned"><small><strong>Assigned To</strong></small></label><br>
+    <input type="text" value="dfdsf" [(ngModel)]="task.assigned" name="assigned" value="">
+  </div>
+  <button (click)="addTask()">Submit</button>

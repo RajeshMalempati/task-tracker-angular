@@ -1,0 +1,32 @@
+
+.content{
+  flex: 1;
+  display:flex;
+  flex-direction:row;
+}
+
+.task-add{
+  width: 100%;
+  margin-right: 4px;
+  background-color: white;
+  padding: 30px;
+}
+
+.task-list {
+  width: 100%;
+  background-color: white;
+  padding: 24px;
+
+}
+
+.task-items {
+  padding: 0px;
+  border: 2px solid #cccccc;
+  border-radius: 4px;
+}
+.even {
+  background-color: #eeeeee;
+}
+.odd {
+  background-color: white;
+}

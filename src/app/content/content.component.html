@@ -1,0 +1,15 @@
+<div class="content">
+  <div class="task-add">
+    <app-task-add></app-task-add>
+  </div>
+  <div class="task-list">
+    <p class="title">Existing Tasks</p>
+    <ul class="task-items">
+    <app-task-list *ngFor="let task of taskService.getTaskLists(); let i = index"
+    [task]="task"
+    [index] = "i"
+></app-task-list>
+    </ul>
+
+</div>
+</div>

@@ -1,0 +1,6 @@
+<li class="task-item"
+[ngClass]="(index%2==0)?'even':'odd'"
+>
+  <p>{{task.name}} <span><small>{{task.date}}</small></span></p>
+  <p>{{task.assigned}}<span class="remove" (click)="removeTask()">Remove</span></p>
+</li>
